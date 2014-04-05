@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3DE03167CAA4F80AE0D7BDB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F14305BCFAE34C74AE139C71 /* libPods.a */; };
 		CF96499918F0350600B448DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF96499818F0350600B448DA /* Foundation.framework */; };
 		CF96499B18F0350600B448DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF96499A18F0350600B448DA /* CoreGraphics.framework */; };
 		CF96499D18F0350600B448DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF96499C18F0350600B448DA /* UIKit.framework */; };
 		CF9649A318F0350600B448DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF9649A118F0350600B448DA /* InfoPlist.strings */; };
 		CF9649A518F0350600B448DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649A418F0350600B448DA /* main.m */; };
-		CF9649A918F0350600B448DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649A818F0350600B448DA /* AppDelegate.m */; };
+		CF9649A918F0350600B448DA /* PairDiaryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649A818F0350600B448DA /* PairDiaryAppDelegate.m */; };
 		CF9649AC18F0350600B448DA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9649AA18F0350600B448DA /* Main_iPhone.storyboard */; };
 		CF9649AF18F0350600B448DA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9649AD18F0350600B448DA /* Main_iPad.storyboard */; };
-		CF9649B218F0350600B448DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649B118F0350600B448DA /* ViewController.m */; };
+		CF9649B218F0350600B448DA /* PairDiaryMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649B118F0350600B448DA /* PairDiaryMessageViewController.m */; };
 		CF9649B418F0350600B448DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9649B318F0350600B448DA /* Images.xcassets */; };
 		CF9649BB18F0350600B448DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9649BA18F0350600B448DA /* XCTest.framework */; };
 		CF9649BC18F0350600B448DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF96499818F0350600B448DA /* Foundation.framework */; };
 		CF9649BD18F0350600B448DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF96499C18F0350600B448DA /* UIKit.framework */; };
 		CF9649C518F0350600B448DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF9649C318F0350600B448DA /* InfoPlist.strings */; };
 		CF9649C718F0350600B448DA /* PairDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649C618F0350600B448DA /* PairDiaryTests.m */; };
+		CF9649D118F0559E00B448DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9649D018F0559E00B448DA /* QuartzCore.framework */; };
+		CF9649D418F0590E00B448DA /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649D318F0590E00B448DA /* FrontViewController.m */; };
+		CF9649D718F0601D00B448DA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649D618F0601D00B448DA /* LoginViewController.m */; };
+		CF9649DA18F0612700B448DA /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9649D918F0612700B448DA /* SignupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0A99E166EBA4E8BB84480FA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CF96499518F0350600B448DA /* PairDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF96499818F0350600B448DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF96499A18F0350600B448DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -43,18 +49,28 @@
 		CF9649A218F0350600B448DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF9649A418F0350600B448DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF9649A618F0350600B448DA /* PairDiary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PairDiary-Prefix.pch"; sourceTree = "<group>"; };
-		CF9649A718F0350600B448DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CF9649A818F0350600B448DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF9649A718F0350600B448DA /* PairDiaryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PairDiaryAppDelegate.h; sourceTree = "<group>"; };
+		CF9649A818F0350600B448DA /* PairDiaryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairDiaryAppDelegate.m; sourceTree = "<group>"; };
 		CF9649AB18F0350600B448DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CF9649AE18F0350600B448DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		CF9649B018F0350600B448DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF9649B118F0350600B448DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF9649B018F0350600B448DA /* PairDiaryMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PairDiaryMessageViewController.h; sourceTree = "<group>"; };
+		CF9649B118F0350600B448DA /* PairDiaryMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairDiaryMessageViewController.m; sourceTree = "<group>"; };
 		CF9649B318F0350600B448DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF9649B918F0350600B448DA /* PairDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9649BA18F0350600B448DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CF9649C218F0350600B448DA /* PairDiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PairDiaryTests-Info.plist"; sourceTree = "<group>"; };
 		CF9649C418F0350600B448DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF9649C618F0350600B448DA /* PairDiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairDiaryTests.m; sourceTree = "<group>"; };
+		CF9649D018F0559E00B448DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CF9649D218F0590E00B448DA /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		CF9649D318F0590E00B448DA /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		CF9649D518F0601D00B448DA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CF9649D618F0601D00B448DA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CF9649D818F0612700B448DA /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		CF9649D918F0612700B448DA /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		CF9649DB18F062D600B448DA /* UpdatePartnerInformationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatePartnerInformationDelegate.h; sourceTree = "<group>"; };
+		CF9649DE18F063A100B448DA /* UpdatePhoneNumberDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatePhoneNumberDelegate.h; sourceTree = "<group>"; };
+		F14305BCFAE34C74AE139C71 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9649D118F0559E00B448DA /* QuartzCore.framework in Frameworks */,
 				CF96499B18F0350600B448DA /* CoreGraphics.framework in Frameworks */,
 				CF96499D18F0350600B448DA /* UIKit.framework in Frameworks */,
 				CF96499918F0350600B448DA /* Foundation.framework in Frameworks */,
+				A3DE03167CAA4F80AE0D7BDB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +106,7 @@
 				CF9649C018F0350600B448DA /* PairDiaryTests */,
 				CF96499718F0350600B448DA /* Frameworks */,
 				CF96499618F0350600B448DA /* Products */,
+				A0A99E166EBA4E8BB84480FA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +122,12 @@
 		CF96499718F0350600B448DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF9649D018F0559E00B448DA /* QuartzCore.framework */,
 				CF96499818F0350600B448DA /* Foundation.framework */,
 				CF96499A18F0350600B448DA /* CoreGraphics.framework */,
 				CF96499C18F0350600B448DA /* UIKit.framework */,
 				CF9649BA18F0350600B448DA /* XCTest.framework */,
+				F14305BCFAE34C74AE139C71 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,14 +135,22 @@
 		CF96499E18F0350600B448DA /* PairDiary */ = {
 			isa = PBXGroup;
 			children = (
-				CF9649A718F0350600B448DA /* AppDelegate.h */,
-				CF9649A818F0350600B448DA /* AppDelegate.m */,
+				CF9649A718F0350600B448DA /* PairDiaryAppDelegate.h */,
+				CF9649A818F0350600B448DA /* PairDiaryAppDelegate.m */,
 				CF9649AA18F0350600B448DA /* Main_iPhone.storyboard */,
 				CF9649AD18F0350600B448DA /* Main_iPad.storyboard */,
-				CF9649B018F0350600B448DA /* ViewController.h */,
-				CF9649B118F0350600B448DA /* ViewController.m */,
+				CF9649B018F0350600B448DA /* PairDiaryMessageViewController.h */,
+				CF9649B118F0350600B448DA /* PairDiaryMessageViewController.m */,
 				CF9649B318F0350600B448DA /* Images.xcassets */,
 				CF96499F18F0350600B448DA /* Supporting Files */,
+				CF9649D218F0590E00B448DA /* FrontViewController.h */,
+				CF9649D318F0590E00B448DA /* FrontViewController.m */,
+				CF9649D518F0601D00B448DA /* LoginViewController.h */,
+				CF9649D618F0601D00B448DA /* LoginViewController.m */,
+				CF9649D818F0612700B448DA /* SignupViewController.h */,
+				CF9649D918F0612700B448DA /* SignupViewController.m */,
+				CF9649DB18F062D600B448DA /* UpdatePartnerInformationDelegate.h */,
+				CF9649DE18F063A100B448DA /* UpdatePhoneNumberDelegate.h */,
 			);
 			path = PairDiary;
 			sourceTree = "<group>";
@@ -162,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF9649CA18F0350600B448DA /* Build configuration list for PBXNativeTarget "PairDiary" */;
 			buildPhases = (
+				0BEB0CE3CCD24393BD5A8592 /* Check Pods Manifest.lock */,
 				CF96499118F0350600B448DA /* Sources */,
 				CF96499218F0350600B448DA /* Frameworks */,
 				CF96499318F0350600B448DA /* Resources */,
+				C3FC002E732145FFA51082DA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,14 +279,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BEB0CE3CCD24393BD5A8592 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FC002E732145FFA51082DA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF96499118F0350600B448DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF9649B218F0350600B448DA /* ViewController.m in Sources */,
-				CF9649A918F0350600B448DA /* AppDelegate.m in Sources */,
+				CF9649DA18F0612700B448DA /* SignupViewController.m in Sources */,
+				CF9649B218F0350600B448DA /* PairDiaryMessageViewController.m in Sources */,
+				CF9649A918F0350600B448DA /* PairDiaryAppDelegate.m in Sources */,
+				CF9649D418F0590E00B448DA /* FrontViewController.m in Sources */,
 				CF9649A518F0350600B448DA /* main.m in Sources */,
+				CF9649D718F0601D00B448DA /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +454,7 @@
 		};
 		CF9649CB18F0350600B448DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A99E166EBA4E8BB84480FA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -394,12 +462,14 @@
 				GCC_PREFIX_HEADER = "PairDiary/PairDiary-Prefix.pch";
 				INFOPLIST_FILE = "PairDiary/PairDiary-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		CF9649CC18F0350600B448DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A99E166EBA4E8BB84480FA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -407,6 +477,7 @@
 				GCC_PREFIX_HEADER = "PairDiary/PairDiary-Prefix.pch";
 				INFOPLIST_FILE = "PairDiary/PairDiary-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +541,7 @@
 				CF9649CC18F0350600B448DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9649CD18F0350600B448DA /* Build configuration list for PBXNativeTarget "PairDiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +550,7 @@
 				CF9649CF18F0350600B448DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

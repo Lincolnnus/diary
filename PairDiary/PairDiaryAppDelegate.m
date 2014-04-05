@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 li.shaohuan. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "PairDiaryAppDelegate.h"
 
-@implementation AppDelegate
+@implementation PairDiaryAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

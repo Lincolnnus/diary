@@ -1,0 +1,17 @@
+PODS:
+  - JSMessagesViewController (4.0.2):
+    - JSQSystemSoundPlayer
+  - JSQSystemSoundPlayer (1.4.0)
+  - UIColor-HexString (1.0.1)
+
+DEPENDENCIES:
+  - JSMessagesViewController
+  - JSQSystemSoundPlayer
+  - UIColor-HexString
+
+SPEC CHECKSUMS:
+  JSMessagesViewController: 901c4f7b805e0990705d92eee8069562ac85bf9b
+  JSQSystemSoundPlayer: 28ccd01a92a0cebc6de6361e8499011b4cb6dab7
+  UIColor-HexString: 8a3f512f71b6d94a2cf6bdeabcad2f3532f31b5a
+
+COCOAPODS: 0.31.1
